@@ -4,12 +4,13 @@
 
 ### Activity 1
 
-
 ![](assets/activity_1_part4_2.png)
 
 ![](assets/activity_1_part4_1.png)
 
 ### Activity 2
+
+![](assets/activity_2.png)
 
 ### Activity 3
 
