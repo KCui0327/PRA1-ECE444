@@ -16,6 +16,8 @@
 
 ### Activity 3
 
+![](assets/img/activity_3_1.png)
+
 ### Activity 4
 
 ### Activity 5
