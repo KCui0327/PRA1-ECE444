@@ -20,4 +20,6 @@
 
 ### Activity 4
 
+![](assets/img/activity_4_1.png)
+
 ### Activity 5
