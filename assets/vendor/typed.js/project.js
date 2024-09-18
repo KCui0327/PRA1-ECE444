@@ -1,27 +1,27 @@
 var projects = [
     ['Picea', [
-        '/assets/img/mental_health.png',
+        'https://kcui0327.github.io/PRA1-ECE444/assets/img/mental_health.png',
         'A mental health conferencing web app',
         ['JavaScript', 'AWS', 'axios', 'Serverless Framework'],
         'https://github.com/KCui0327/Picea'
         ]
     ],
     ['Branch', [
-        '/assets/img/branch.png',
+        'https://kcui0327.github.io/PRA1-ECE444/assets/img/branch.png',
         'A web app to allow underprivileged communities to receive high quality tutoring and mentorship',
         ['Python', 'Flask', 'axios', 'JavaScript', 'TypeScript', 'CSS', 'axios'],
         'https://github.com/KCui0327/Branch'
         ]
     ],
     ['contentsift', [
-        '/assets/img/contentsift.png',
+        'https://kcui0327.github.io/PRA1-ECE444/assets/img/contentsift.png',
         'Web extension to filter out fake news in X (formerly Twitter)',
         ['JavaScript', 'React', 'Python', 'Microsoft Azure', 'axios'],
         'https://github.com/KCui0327/contentsift'
         ]
     ],
     ['ECE 297 Mapping Software', [
-        '/assets/img/ece297.png',
+        'https://kcui0327.github.io/PRA1-ECE444/assets/img/ece297.png',
         'Mapping Software for ECE297 Course',
         ['C++', 'OpenStreetMap (OSM)'],
         'https://github.com/KCui0327/ece297-hashmapper-showcase'
@@ -31,14 +31,14 @@ var projects = [
 
 var projects_late = [
     ['shakesafe', [
-        '/assets/img/shakesafe.png',
+        'https://kcui0327.github.io/PRA1-ECE444/assets/img/shakesafe.png',
         'Andriod App and rescue device for rescue efforts in earthquakes',
         ['Kotlin', 'C++', 'Arduino', 'OpenAI GPT 3 API', 'Google Maps API', 'Dropbox API'],
         'https://github.com/KCui0327/shakesafe'
         ]
     ],
     ['forgetful', [
-        '/assets/img/forgetful.png',
+        'https://kcui0327.github.io/PRA1-ECE444/assets/img/forgetful.png',
         'A to-do list',
         ['Python', 'SQLite'],
         'https://github.com/KCui0327/forgetful'
