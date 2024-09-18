@@ -21,5 +21,8 @@
 ### Activity 4
 
 ![](assets/img/activity_4_1.png)
+![](assets/img/activity_4_2.png)
 
 ### Activity 5
+
+
