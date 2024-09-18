@@ -21,6 +21,7 @@
   <!-- Custom Styles-->
   <link rel="stylesheet" href="/assets/css/style.css" />
 
+
   <title>Kenny Cui | Software Developer</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -32,6 +33,10 @@
 
     gtag('config', 'UA-126939217-2');
   </script>
+
+  <!-- Activity 5 for Recent Projects -->
+  <script type="text/javascript" src="script.js"></script>
+
 
   <!-- Open Graph-->
   <meta property="og:locale" content="en_US" />
@@ -329,12 +334,12 @@
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/mental_health.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="project1 pic" id="pic1" src="/assets/img/mental_health.png" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Picea<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
+                <span id="title1" class="card-title activator teal-text hoverline">Picea<i
+                  class="mdi-navigation-more-vert right"></i></span>
+                <p id="description1">
                   A mental health conferencing web app
                 </p>
               </div>
@@ -342,14 +347,14 @@
                 <span class="card-title grey-text"><small>Tools</small><i
                     class="mdi-navigation-close right"></i></span>
                   <b>Tools & Technologies</b>
-                  <ul>
+                  <ul id="tools1">
                     <li>JavaScript</li>
                     <li>AWS</li>
                     <li>axois</li>
                     <li>Serverless Framework</li>
                   </ul>
                 <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/KCui0327/Picea"
+                  <a aria-label="Visit the GitHub repo for  project" id="repo1" href="https://github.com/KCui0327/Picea"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
@@ -361,12 +366,12 @@
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/branch.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="project2 pic" id="pic2" src="/assets/img/branch.png" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Branch<i
+                <span id="title2" class="card-title activator teal-text hoverline">Branch<i
                     class="mdi-navigation-more-vert right"></i></span>
-                <p>
+                <p id="description2">
                   A web app to allow underprivileged communities to receive high quality tutoring and mentorship
                 </p>
               </div>
@@ -374,7 +379,7 @@
                 <span class="card-title grey-text"><small>Tools</small><i
                     class="mdi-navigation-close right"></i></span>
                   <b>Tools & Technologies</b>
-                  <ul>
+                  <ul id="tools2">
                     <li>Python</li>
                     <li>Flask</li>
                     <li>JavaScript</li>
@@ -383,7 +388,7 @@
                     <li>axios</li>
                   </ul>
                 <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/KCui0327/Branch"
+                  <a aria-label="Visit the GitHub repo for  project" id="repo2" href="https://github.com/KCui0327/Branch"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
@@ -395,12 +400,12 @@
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/contentsift.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="project3 pic" id="pic3" src="/assets/img/contentsift.png" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">contentsift<i
+                <span id="title3" class="card-title activator teal-text hoverline">contentsift<i
                     class="mdi-navigation-more-vert right"></i></span>
-                <p>
+                <p id="description3">
                   Web extension to filter out fake news in X (formerly Twitter)
                 </p>
               </div>
@@ -408,7 +413,7 @@
                 <span class="card-title grey-text"><small>Tools</small><i
                     class="mdi-navigation-close right"></i></span>
                   <b>Tools & Technologies</b>
-                  <ul>
+                  <ul id="tools3">
                     <li>JavaScript</li>
                     <li>React</li>
                     <li>Python</li>
@@ -416,7 +421,7 @@
                     <li>axios</li>
                   </ul>
                 <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/KCui0327/contentsift"
+                  <a aria-label="Visit the GitHub repo for  project" id="repo3" href="https://github.com/KCui0327/contentsift"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
@@ -425,69 +430,11 @@
             </div>
           </div>
 
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/ece297.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">ECE297 Mapping Software<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Mapping Software for ECE297 Course
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Tools</small><i
-                    class="mdi-navigation-close right"></i></span>
-                  <b>Tools & Technologies</b>
-                  <ul>
-                    <li>C++</li>
-                    <li>OpenStreetMap (OSM)</li>
-                  </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/KCui0327/ece297-hashmapper-showcase"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
+          <div class='buttons'>
+              <button id="load_button" class="load" onclick="loadMore()"> Load More </button>
           </div>
-        
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/shakesafe.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">shakesafe<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Andriod App and rescue device for rescue efforts in earthquakes
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Tools</small><i
-                    class="mdi-navigation-close right"></i></span>
-                  <b>Tools & Technologies</b>
-                  <ul>
-                    <li>Kotlin</li>
-                    <li>C++</li>
-                    <li>Arduino</li>
-                    <li>OpenAI GPT 3 API</li>
-                    <li>Google Maps API</li>
-                    <li>Dropbox API</li>
-                  </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/KCui0327/shakesafe"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+
+          <script type="text/javascript" src="/assets/vendor/typed.js/project.js"></script>
         
         </div>
       </div>
@@ -578,40 +525,6 @@
             </div>
           </div>
         </div>
-
-        <!-- certifications -->
-        <!-- <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Certificates</h4>
-            <div class="row text-left">
-              <div class="container">
-                <div class="row">
-                  <div class="col s12 m6 l6">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="/assets/img/mooc-machine-learning-coursera-800x500.jpg">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">Machine Learning (Stanford)</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col s12 m6 l6">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="/assets/img/mooc-algorithms-stanford-2-800x500.jpg">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">Algorithms (Stanford)</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
 
       </div>
     </section>
