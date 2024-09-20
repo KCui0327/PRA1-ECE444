@@ -52,7 +52,7 @@ var projects_late = [
     ]
 ]
 
-var i = 1;
+var i = 0;
 
 function sortProjects() {
     projects.sort((a,b) => {
