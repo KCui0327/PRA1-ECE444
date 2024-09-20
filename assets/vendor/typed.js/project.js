@@ -1,28 +1,4 @@
 var projects = [
-    ['Picea', [
-        'https://kcui0327.github.io/PRA1-ECE444/assets/img/mental_health.png',
-        'A mental health conferencing web app',
-        ['JavaScript', 'AWS', 'axios', 'Serverless Framework'],
-        'https://github.com/KCui0327/Picea',
-        '2024-03'
-        ]
-    ],
-    ['Branch', [
-        'https://kcui0327.github.io/PRA1-ECE444/assets/img/branch.png',
-        'A web app to allow underprivileged communities to receive tutoring and mentorship',
-        ['Python', 'Flask', 'axios', 'JavaScript', 'TypeScript', 'CSS', 'axios'],
-        'https://github.com/KCui0327/Branch',
-        '2024-02'
-        ]
-    ],
-    ['contentsift', [
-        'https://kcui0327.github.io/PRA1-ECE444/assets/img/contentsift.png',
-        'Web extension to filter out fake news in X (formerly Twitter)',
-        ['JavaScript', 'React', 'Python', 'Microsoft Azure', 'axios'],
-        'https://github.com/KCui0327/contentsift',
-        '2024-01'
-        ]
-    ],
     ['ECE 297 Mapping Software', [
         'https://kcui0327.github.io/PRA1-ECE444/assets/img/ece297.png',
         'Mapping Software for ECE297 Course',
@@ -30,7 +6,31 @@ var projects = [
         'https://github.com/KCui0327/ece297-hashmapper-showcase',
         '2023-04'
         ]
-    ]
+    ],
+    ['Picea', [
+        'https://kcui0327.github.io/PRA1-ECE444/assets/img/mental_health.png',
+        'A mental health conferencing web app',
+        ['JavaScript', 'AWS', 'axios', 'Serverless Framework'],
+        'https://github.com/KCui0327/Picea',
+        '2024-02'
+        ]
+    ],
+    ['Branch', [
+        'https://kcui0327.github.io/PRA1-ECE444/assets/img/branch.png',
+        'A web app for tutoring and mentorship',
+        ['Python', 'Flask', 'axios', 'JavaScript', 'TypeScript', 'CSS', 'axios'],
+        'https://github.com/KCui0327/Branch',
+        '2024-10'
+        ]
+    ],
+    ['contentsift', [
+        'https://kcui0327.github.io/PRA1-ECE444/assets/img/contentsift.png',
+        'Web extension to filter out fake news in X (formerly Twitter)',
+        ['JavaScript', 'React', 'Python', 'Microsoft Azure', 'axios'],
+        'https://github.com/KCui0327/contentsift',
+        '2024-03'
+        ]
+    ],
 ];
 
 var projects_late = [
