@@ -74,7 +74,8 @@ function rotateProjects() {
     document.getElementById("pic1").src = projects[(i + 0) % len][1][0];
     document.getElementById("description1").innerHTML = projects[(i + 0) % len][1][1];
     document.getElementById("repo1").href = projects[(i + 0) % len][1][3];
-    document.getElementById("date1").innerHTML = projects[(i + 0) % len][1][4];
+    const Date1 = new Date(projects[(i + 0) % len][1][4]);
+    document.getElementById("date1").innerHTML = Date1.toLocaleDateString('en-CA');
 
     var tools = document.getElementById("tools1")
     tools.innerHTML = ""
@@ -88,7 +89,8 @@ function rotateProjects() {
     document.getElementById("pic2").src = projects[(i + 1) % len][1][0];
     document.getElementById("description2").innerHTML = projects[(i + 1) % len][1][1];
     document.getElementById("repo2").href = projects[(i + 1) % len][1][3];
-    document.getElementById("date2").innerHTML = projects[(i + 1) % len][1][4];
+    const Date2 = new Date(projects[(i + 1) % len][1][4]);
+    document.getElementById("date2").innerHTML = Date2.toLocaleDateString('en-CA');
 
     var tools = document.getElementById("tools2")
     tools.innerHTML = ""
@@ -102,7 +104,8 @@ function rotateProjects() {
     document.getElementById("pic3").src = projects[(i + 2) % len][1][0];
     document.getElementById("description3").innerHTML = projects[(i + 2) % len][1][1];
     document.getElementById("repo3").href = projects[(i + 2) % len][1][3];
-    document.getElementById("date3").innerHTML = projects[(i + 2) % len][1][4];
+    const Date3 = new Date(projects[(i + 2) % len][1][4]);
+    document.getElementById("date3").innerHTML = Date3.toLocaleDateString('en-CA');
 
 
     var tools = document.getElementById("tools3")
