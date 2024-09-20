@@ -59,15 +59,14 @@ function loadMore() {
     projects = projects.concat(projects_late);
 }
 
-projects.sort((a,b) => {
-    const date1 = new Date(a[1][4]);
-    const date2 = new Date(b[1][4]);
-
-    return date2 - date1;
-});
-
 function rotateProjects() {
     var len = projects.length;
+    projects.sort((a,b) => {
+        const date1 = new Date(a[1][4]);
+        const date2 = new Date(b[1][4]);
+    
+        return date2 - date1;
+    });
     document.getElementById("title1").innerHTML = projects[(i + 0) % len][0];
     document.getElementById("pic1").src = projects[(i + 0) % len][1][0];
     document.getElementById("description1").innerHTML = projects[(i + 0) % len][1][1];
@@ -113,5 +112,7 @@ function rotateProjects() {
 
     i++;
 }
+
+rotateProjects();
 
 setInterval(rotateProjects, 2000);
